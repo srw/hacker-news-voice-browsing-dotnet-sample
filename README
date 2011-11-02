@@ -1,0 +1,14 @@
+Hacker News Voice Web Browsing
+
+Sample code of voice recognition, text to speech, and main text content extraction using System.Speech and boilerpipe under .NET.
+
+Main article with further information: http://blog.databigbang.com/voice-recognition-content-extraction-tts-innovative-web-browsing/
+
+Prerequisites:
+If you use our code you will just need Microsoft Visual Studio 2010. However if there is a new version of boilerpipe you will have to generate the boilerpipe .NET assemblies yourself as follows:
+
+- Have Microsoft Visual Studio 2010
+- Download boilerpipe from http://code.google.com/p/boilerpipe/
+- Download and install IKVM from http://www.ikvm.net/
+- Run boilerpipe library and dependencies through ikvmc: ikvmc -nojni -target:library  boilerpipe-1.2.0.jar lib\nekohtml-1.9.13.jar lib\xerces-2.9.1.jar
+- Use the resulting boilerpipe-1.2.0.dll .NET assembly from ikvmc.
