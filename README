@@ -1,6 +1,6 @@
 Hacker News Voice Web Browsing
 
-Sample code of voice recognition, text to speech, and main text content extraction using System.Speech and boilerpipe under .NET.
+Sample code of voice recognition, text to speech, and main text content extraction using System.Speech and boilerpipe (via IKVM) under .NET.
 
 Main article with further information: http://blog.databigbang.com/voice-recognition-content-extraction-tts-innovative-web-browsing/
 
